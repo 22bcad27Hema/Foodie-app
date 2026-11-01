@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text, FlatList, TouchableOpacity, Alert, Platform, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView } from '../components/SafeScreen';
 import { Ionicons } from '@expo/vector-icons';
 import Header from '../components/Header';
 import RecipeCard from '../components/RecipeCard';

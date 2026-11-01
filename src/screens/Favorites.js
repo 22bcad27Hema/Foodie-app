@@ -1,6 +1,6 @@
 import React from 'react';
 import { Text, FlatList, StyleSheet } from 'react-native';
-import { SafeAreaView } from 'react-native-safe-area-context';
+import { SafeAreaView } from '../components/SafeScreen';
 import Header from '../components/Header';
 import RecipeCard from '../components/RecipeCard';
 import { useFood } from '../store';
